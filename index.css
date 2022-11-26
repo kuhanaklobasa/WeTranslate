@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+nav {
+  height: 40px;
+}
+nav a {
+  float: right;
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+nav a:hover {
+  color: rgb(202, 201, 201);
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.scroll-down {
+  opacity: 1;
+  transition: all 0.5s ease-in 3s;
+}
+
+.scroll-down {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 3rem;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  transition: all 0.2s ease-in;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+.hero h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 30px;
+  color: white;
+}
+
+.hero img {
+  margin-top: 10px !important;
+  max-height: 45%;
+  max-width: 45%;
+  -webkit-animation: float 10s ease-in-out infinite;
+          animation: float 10s ease-in-out infinite;
+}
+
+@media (min-width: 1078px) {
+  .hero img {
+    margin-top: 10px;
+    max-height: 37%;
+    max-width: 37%;
+  }
+}
+.who-are-we {
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+}
+.who-are-we h1 {
+  color: white;
+}
+.who-are-we p {
+  font-size: 1.5em;
+}
+
+.what-are-our-prices {
+  margin-top: 100px;
+  width: 50%;
+  text-align: center;
+}
+.what-are-our-prices h1 {
+  color: white;
+}
+.what-are-our-prices p {
+  font-size: 1.5em;
+}
+
+.row .card {
+  padding: 5px;
+  background-color: rgb(67, 67, 67);
+  align-items: center;
+}
+.row .card hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row .card .text > .description, .row .card .title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row .card .text > .visits {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.past-projects {
+  margin-top: 100px;
+}
+.past-projects h1 {
+  margin-bottom: 20px !important;
+}
+.past-projects .row .project {
+  width: 300px;
+}
+.past-projects .row .project img {
+  width: 100%;
+  height: 60%;
+  border-radius: 8px;
+  border: 3px solid rgb(75, 75, 75);
+}
+.past-projects .row .project .text {
+  text-align: center;
+  margin-top: 3px;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
+.discord {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+}
+.discord .btn {
+  background-color: #8ab1ff !important;
+}
+.discord a {
+  margin-top: 20px !important;
+  margin-right: 10px !important;
+}
+
+.questions h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.socials .col1 {
+  position: relative;
+}
+.socials .col1 img {
+  width: 100%;
+  height: 100%;
+}
+.socials .tags {
+  margin-top: 100px;
+  color: white;
+}
+.socials .tags .tag {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  height: 5vw;
+  align-items: center;
+  justify-content: center;
+}
+.socials .tags .tag p {
+  margin: 0;
+  font-size: 3vw;
+  line-height: 3vw;
+  margin-left: 5px;
+}/*# sourceMappingURL=index.css.map */
